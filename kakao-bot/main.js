@@ -9,7 +9,7 @@ const Kakao = new kalingModule;
 Kakao.init("af8df8a4ad5dd330eecc63b5c8d72298")//javascript key
 Kakao.login('id', 'pw')
 function response(room, msg, sender, isGroupChat, replier, IamgeDB, packageName) {
-if(msg==="[놀자에요]") Kakao.send(room,{
+if(msg === "[놀자에요]") Kakao.send(room,{
         "link_ver": "4.0"
         "template_id": 78771
         "template_args" : {
