@@ -1,3 +1,4 @@
+const scriptName = "LostArkGuildBot";
 // room: 채팅이 수신괸 방의 이름
 // msg: 수신된 채팅 내용
 // sender: 채팅을 보낸 사람의 카톡 닉네임
@@ -16,3 +17,11 @@ if(msg==="[놀자에요]") Kakao.send(room,{
         }
     }, "custom");
 }
+
+function onStart(activity) {}
+
+function onResume(activity) {}
+
+function onPause(activity) {}
+
+function onStop(activity) {}
